@@ -10,11 +10,15 @@ body {
   background-color: #212121;
 }
 
+h3 {
+  color : #63c2c7;
+}
+
 
 #welcome {
   width: 100%;
   height: 90%;
-  background-image: url("./music_background.jpg");
+  background-image: url("./image/music_background.jpg");
   background-size:     cover;
   background-repeat:   no-repeat;
   background-position: center center;
@@ -26,19 +30,17 @@ body {
   margin-top: 50px;
 }
 
-#button_data {
-  margin-top: 300px;
-  background-color: #2E2E2E;
-}
+
 
 .btn-outline-light {
   border-color: #2E2E2E;
+  background-color: #212121;
   color: grey;
 }
 
 .btn-outline-light:hover , .btn-outline-light:focus, .btn-outline-light:active{
   border-color: #63c2c7;
-  background-color: #63c2c7;
+  background-color: #212121;
   color: white;
 }
 
